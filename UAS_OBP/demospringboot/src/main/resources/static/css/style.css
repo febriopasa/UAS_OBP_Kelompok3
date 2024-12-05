@@ -1,0 +1,114 @@
+
+.navbar {
+  position: sticky;  /* untuk membuat navar agar tetap tampil saat di scroll */
+  top: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-link {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.active {
+  color:#bc2a9a !important;
+}
+
+.nav-link:hover {
+  color: #bc2a9a !important;
+}
+
+.no-hover:hover{
+  color: white !important;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  color: #bc2a9a !important;
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  text-align: center; 
+  z-index: 1; 
+}
+
+
+.tombol :hover{color: white; width: fit-content;}
+.tomboll {width: fit-content; background-color: #bc2a9a;}
+.tomboll a{color: white; padding: 15px;}
+
+.tomboljuga :hover{color: black; width: fit-content;}
+.tombolljuga {width: fit-content; background-color: white;}
+.tombolljuga a{color: black; padding: 15px;}
+
+.nav-item {padding: 9px; padding-right: 11px;}
+
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+  background-color: #bc2a9a;
+}
+
+
+.kotak{
+  transition: fill 0.3;
+}
+
+.kotak :hover{
+  background-color: #bc2a9a;
+  color: white;
+}
+
+.persegi:hover svg {
+  fill: white; 
+}
+
+.persegi{
+  width: 300px; height: 265px; padding: 20px; text-align: center; background-color: #a0bbdb31;
+}
+
+.fa-star {
+  color: #bc2a9a;
+}
+
+.img-container {
+  overflow: hidden; 
+}
+.zoom-img {
+  transition: transform 0.3s ease; 
+}
+.img-container:hover .zoom-img {
+  transform: scale(1.1);
+}
+
+.tekstambahan {
+  position: absolute;
+  bottom: 1px;
+  right: 15px;
+  background-color: white; /* Semi-transparent background */
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.card {background-color: #a0bbdb31;}
+.card-body {text-align: center;}
+.card-img {
+  transition: transform 0.3s ease;
+}
+.img-container:hover .card-img {
+  transform: scale(1.1); 
+}
+
+
+
+* {padding: 0; margin: 0}

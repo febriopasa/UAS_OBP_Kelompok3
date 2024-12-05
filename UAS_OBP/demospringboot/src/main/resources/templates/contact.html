@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>YAYASAN_PEDULI_KANKER</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+          background-color: #f9f9f9;
+      }
+
+      .hero {
+          background-color: #bc2a9a;
+          color: white;
+          padding: 40px 20px;
+          text-align: center;
+          border-radius: 8px;
+          margin-top: 20px;
+      }
+
+      .hero h1 {
+          margin: 0;
+          font-size: 36px;
+      }
+
+      .hero p {
+          margin-top: 10px;
+          font-size: 18px;
+      }
+
+      .contact-info {
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+      }
+
+      .contact-info div {
+          flex: 1;
+          padding: 10px;
+          margin: 10px 0;
+          background-color: #f7f7f7;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-info h3 {
+          color: #bc2a9a;
+      }
+
+      
+  </style>
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow" style="background: white;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#bc2a9a" class="bi bi-hospital" viewBox="0 0 16 16" style="width: 60px; margin-left: 20px;">
+        <path d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
+        <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z"/>
+      </svg>
+        <div class="container-fluid">
+          <h2 style="color: #bc2a9a; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="fw-bold">PeduliKanker</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/pedulikanker" style="padding-top: 15px; padding-bottom: 15px;">BERANDA</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark dropdown-toggle" href="#" style="padding-top: 15px; padding-bottom: 15px;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DONASI
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/lakukandonasi">Lakukan Donasi</a></li>
+                  <li><a class="dropdown-item" href="/buktidonasi">Lihat Bukti Donasi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/contact" style="padding-top: 15px; padding-bottom: 15px;">KONTAK KAMI</a>
+              </li>
+              <li class="nav-item" style="background-color: #bc2a9a; width: fit-content;">
+                <a class="nav-link no-hover" href="/login" style="padding-top: 15px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px; color: white;">LOGIN ADMIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+      <br><br><br><br><br><br><br><br>
+
+    <div class="container xxl">
+
+
+      <!-- CARLOS DANNIEL 085219243538 -->
+      <!-- GANISHA SURAPANNO 087788454638 -->
+      <!-- FEBRIO RADITYA PASA 081299359727 -->
+    <!-- HERO -->
+    <div class="container">
+      <div class="hero">
+          <h1>Hubungi Kami</h1>
+          <p>Jika Anda memiliki pertanyaan atau butuh bantuan, silakan isi formulir di bawah ini atau hubungi kami melalui informasi kontak yang tersedia.</p>
+      </div>
+
+
+      <!-- INFORMASI KONTAK -->
+      <div class="contact-info">
+          <div>
+              <h3>Alamat</h3>
+              <p><i class="fas fa-map-marker-alt"></i> 123 Jalan Utama, Jakarta, Indonesia</p>
+          </div>
+          <div>
+              <h3>Telepon</h3>
+              <p><i class="fas fa-phone-alt"></i> +62 812 9935 9727</p>
+          </div>
+          <div>
+              <h3>Email</h3>
+              <p><i class="fas fa-envelope"></i> yayasanpedulikanker@gmail.com</p>
+          </div>
+      </div>
+  </div>
+
+  </div>
+
+
+  <br><br><br><br><br><br><br><br><br>
+
+
+    <!-- FOOTER -->
+    <div class="container-fluid pt-5 mt-5 text-light" style="background: #350633;">
+
+      <div class="container">
+        <br>
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 pertama">
+              <h4 class="mb-2">Quick Link</h4>
+              <div><a class="btn text-light" href=""><i class="fa fa-arrow-right me-2"></i>About Us</a></div>
+              <div><a class="btn text-light" href=""><i class="fa fa-arrow-right me-2"></i>Contact Us</a></div>
+              <div><a class="btn text-light" href=""><i class="fa fa-arrow-right me-2"></i>Privacy Policy</a></div>
+              <div><a class="btn text-light" href=""><i class="fa fa-arrow-right me-2"></i>Terms & Condition</a></div>
+              <div><a class="btn text-light" href=""><i class="fa fa-arrow-right me-2"></i>FAQs & Help</a></div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 kedua">
+              <h4 class="mb-3">Contact</h4>
+              <p><i class="fa fa-map-marker-alt text-light me-2"></i>123 Street, New York, USA</p>
+              <p><i class="fa fa-phone-alt text-light me-2"></i>0812 9935 9727</p>
+              <p> <i class="fa fa-envelope text-light me-2"></i>yayasanpedulikanker@gmail.com</p>
+              <div class="tombolkontak d-flex">
+                <a class="tombolkontakk btn btn-outline-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                <a class="tombolkontakk btn btn-outline-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="tombolkontakk btn btn-outline-light rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                <a class="tombolkontakk btn btn-outline-light rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 ketiga">
+              <h4 class="mb-4">Galery</h4>
+              <div class="row g-2">
+                <div class="col-4">
+                  <img src="Image/course-1.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="Image/course-2.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="Image/course-3.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="Image/course-3.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="Image/course-2.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="Image/course-1.jpg" class="img-fluid bg-light" style="padding: 1px;" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 keempat">
+              <h4 class="mb-3">Newsletter</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="container">
+        <br>
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <p>&copy;<a class="border-bottom text-light" href="">eLearning_Webdev</a>, All Right Reserved. Designed By <a class="border-bottom text-light" href="">Febrio Raditya Pasa</a></p>
+            <p>Distributed By <a class="border-bottom text-light" href="">Bootstrap</a></p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+              <a class="btn text-light" href="">Home</a>
+              <a class="btn text-light" href="">Cookies</a>
+              <a class="btn text-light" href="">Help</a>
+              <a class="btn text-light" href="">FQAs</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <a class="btn btn-light" href="#"><img src="Image/up-arrow.png" style="width: 25px; height: 25px;"></a>
+        </div>
+        <br>
+      </div>
+      
+    </div>
+
+</body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
